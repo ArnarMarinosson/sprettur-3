@@ -94,5 +94,5 @@ class testMaxFunctions(unittest.TestCase):
         c2 = socket.socket(socket.AF_INET , socket. SOCK_STREAM)
         self.assertEqual(Players.getPlayer(self,c,c2), 'Gylfi')
 if __name__ == '__main__':
-    #main()
+    main()
     unittest.main()
