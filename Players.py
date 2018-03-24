@@ -86,10 +86,6 @@ class testMaxFunctions(unittest.TestCase):
     def test1_getTeam(self):
         c = socket.socket(socket.AF_INET , socket. SOCK_STREAM)
         c2 = socket.socket(socket.AF_INET , socket. SOCK_STREAM)
-        #s.bind(('localhost',3333))
-        #s2.bind(('localhost',3332))
-        #s.listen (1)
-        #s2.listen (1)
         self.assertEqual(Players.getTeam(self,c,c2), 'N')
         c.close()
         c2.close()
